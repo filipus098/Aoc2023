@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Day1 {
     public static void main(String[] args) {
-        //p1
         List<String> strings = Utils.readAllLineesAOCFile(1);
         List<Integer> values = new ArrayList<>();
 

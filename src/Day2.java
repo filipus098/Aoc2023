@@ -8,7 +8,6 @@ public class Day2 {
     static final int BLUES = 14;
 
     public static void main(String[] args) {
-        //p1
         List<String> strings = Utils.readAllLineesAOCFile(2);
 
         List<Integer> values = new ArrayList<>();

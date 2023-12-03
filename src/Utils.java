@@ -15,4 +15,14 @@ public class Utils {
             throw new RuntimeException(e);
         }
     }
+
+    public static char[][] convertStringListTo2dCharArray(List<String> strings) {
+        char[][] stringArray = new char[strings.size()][];
+        int i = 0;
+        for (String s : strings) {
+            stringArray[i] = s.toCharArray();
+            i++;
+        }
+        return stringArray;
+    }
 }
